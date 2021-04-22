@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foregroundGravity="right|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Controler.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="418dp"
+        android:layout_height="167dp"
+        android:background="#47AC23"
+        android:gravity="center"
+        android:text="COVID-19 DESEASE"
+        android:textColor="#F9F5F5"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="251dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="80dp"
+        android:background="#47AC23"
+        android:text="COMMENCER"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#47AC23"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="601dp" />
+
+</LinearLayout>

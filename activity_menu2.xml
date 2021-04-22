@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controler.MenuActivity2">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="418dp"
+        android:layout_height="156dp"
+        android:gravity="center"
+        android:shadowColor="#FF9800"
+        android:text="MENU"
+        android:textSize="66sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/btn_test"
+        android:layout_width="419dp"
+        android:layout_height="96dp"
+        android:text="TESTER"
+        android:textSize="30sp"
+        app:backgroundTint="#47AC23"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:rippleColor="#77D356"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/btn_resultat"
+        android:layout_width="424dp"
+        android:layout_height="87dp"
+        android:text="RESULTAT DU JOUR"
+        android:textSize="30sp"
+        app:backgroundTint="#47AC23"
+        tools:layout_editor_absoluteX="-8dp"
+        tools:layout_editor_absoluteY="375dp" />
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Controler.PresentationActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="421dp"
+        android:layout_height="228dp"
+        android:background="#47AC23"
+        android:gravity="center"
+        android:text="COVID-19 DESEASE"
+        android:textColor="#F9F5F5"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="1dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="425dp"
+        android:layout_height="215dp"
+        android:gravity="center"
+        android:text="La maladie à coronavirus 2019 (COVID-19) est une ‎maladie infectieuse due à un coronavirus découvert ‎récemment. ‎ La majorité des personnes atteintes de la COVID-19 ‎ne ressentiront que des symptômes bénins ou ‎modérés et guériront sans traitement particulier. ‎vu cette situation nous avons penser apporter une autre solution a cette fleau particulier .Avec notre application test corona va nous permetre de tester les gens et saurons leur situationavant meme de tomber malade "
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="227dp" />
+
+    <Button
+        android:id="@+id/btn_commrncer"
+        android:layout_width="251dp"
+        android:layout_height="85dp"
+        android:background="#47AC23"
+        android:text="COMMENCER"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:backgroundTint="#47AC23"
+        tools:layout_editor_absoluteX="82dp"
+        tools:layout_editor_absoluteY="601dp"
+        android:layout_marginLeft="25dp"/>
+</LinearLayout>
